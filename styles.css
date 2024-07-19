@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.navbar {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FF7171;
+}
+
+.page1 {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.page2 {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #FFF6AD, #FFAAF8);
+}
+
+.content>div {
+    flex: 1;
+}
+
+.text-content{
+    background: linear-gradient(to right, #FFF6AD, #FFD1D2);
+    align-items: center;
+    padding: 5rem;
+}
+
+.text-content p{
+    padding: 2rem;
+}
+
+.text-content button {
+    background-color: #ff7675;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.food-background {
+    height: 100vh;
+    width: 100%;
+    background: url('./assets/pexels-robin-stickel-70497.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.menu-icon {
+    width: 2rem;
+    height: 2rem;
+}
+
+.container2{
+    width: 80%;
+    height: 70%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pics{
+    width: 48%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pic1{
+    width: 48%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* gap: 1rem; */
+
+}
+.row-1-image{
+    width: 100%;
+    height: 48%;
+}
+.row-2-image{
+    height: 48%;
+    width: 100%;
+}
+
+.anchor-tag {
+    text-decoration: none;
+    color: #000;
+    font-size: medium;
+}
+
+.card-container {
+    /* border: 1px solid black; */
+    /* width: 48%; */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-box{
+    height: 60%;
+    width: 100%;
+    background-color: #FF7171;
+    padding: 2rem;
+}
